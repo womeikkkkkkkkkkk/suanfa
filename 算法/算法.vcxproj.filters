@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="算法">
+      <UniqueIdentifier>{0bff6c0d-1175-4604-9e67-da6999bd02e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="基础数据结构">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="基础数据结构\排序">
+      <UniqueIdentifier>{91238fd2-6715-4702-91ad-41981749609b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="基础数据结构\排序\交换排序">
+      <UniqueIdentifier>{eeed53c5-a3e1-440f-9570-abf5ac45bcb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="基础数据结构\排序\选择排序">
+      <UniqueIdentifier>{b05b7bf8-d938-47b9-9fe1-2b2dd0f241f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="基础数据结构\排序\归并排序、基数排序和计数排序">
+      <UniqueIdentifier>{c9d8f5ca-8ae9-4826-a2c3-817426f9e470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="基础数据结构\排序\外部排序">
+      <UniqueIdentifier>{a2dd87c9-4dc0-4a08-a5ee-7b1edc0fdc7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="基础数据结构\链表">
+      <UniqueIdentifier>{543fd811-ec87-48ca-a593-d0cfdf065433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="基础数据结构\队列、栈">
+      <UniqueIdentifier>{ec12d5b9-971b-4f4c-8def-199f4ca0ba51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="基础数据结构\查找">
+      <UniqueIdentifier>{88b1c66d-a442-4e4b-bdda-b2836ba15936}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="基础数据结构\图">
+      <UniqueIdentifier>{d3fbede9-b148-48ec-a4cf-9eddf8ca366a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="基础数据结构\串">
+      <UniqueIdentifier>{4a855299-530d-42d3-8262-5618e74e4e0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="基础数据结构\树">
+      <UniqueIdentifier>{20b7f464-22e6-433b-8371-8310f6ea6f5d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="单向链表.cpp">
+      <Filter>基础数据结构\链表</Filter>
+    </ClCompile>
+    <ClCompile Include="循环双链表.cpp">
+      <Filter>基础数据结构\链表</Filter>
+    </ClCompile>
+    <ClCompile Include="循环单链表.cpp">
+      <Filter>基础数据结构\链表</Filter>
+    </ClCompile>
+    <ClCompile Include="双向链表.cpp">
+      <Filter>基础数据结构\链表</Filter>
+    </ClCompile>
+    <ClCompile Include="双端队列.cpp">
+      <Filter>基础数据结构\队列、栈</Filter>
+    </ClCompile>
+    <ClCompile Include="队列（链表）.cpp">
+      <Filter>基础数据结构\队列、栈</Filter>
+    </ClCompile>
+    <ClCompile Include="队列（栈）.cpp">
+      <Filter>基础数据结构\队列、栈</Filter>
+    </ClCompile>
+    <ClCompile Include="队列（顺序）.cpp">
+      <Filter>基础数据结构\队列、栈</Filter>
+    </ClCompile>
+    <ClCompile Include="栈（队列）.cpp">
+      <Filter>基础数据结构\队列、栈</Filter>
+    </ClCompile>
+    <ClCompile Include="栈（顺序）.cpp">
+      <Filter>基础数据结构\队列、栈</Filter>
+    </ClCompile>
+    <ClCompile Include="树.cpp">
+      <Filter>基础数据结构\树</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉树（顺序）.cpp">
+      <Filter>基础数据结构\树</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉树（链表）.cpp">
+      <Filter>基础数据结构\树</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉树遍历（前序）.cpp">
+      <Filter>基础数据结构\树</Filter>
+    </ClCompile>
+    <ClCompile Include="线索二叉树（前序）.cpp">
+      <Filter>基础数据结构\树</Filter>
+    </ClCompile>
+    <ClCompile Include="线索二叉树（中序）.cpp">
+      <Filter>基础数据结构\树</Filter>
+    </ClCompile>
+    <ClCompile Include="线索二叉树（后序）.cpp">
+      <Filter>基础数据结构\树</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉树遍历（中序）.cpp">
+      <Filter>基础数据结构\树</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉树遍历（后序）.cpp">
+      <Filter>基础数据结构\树</Filter>
+    </ClCompile>
+    <ClCompile Include="串的基本操作.cpp">
+      <Filter>基础数据结构\串</Filter>
+    </ClCompile>
+    <ClCompile Include="冒泡排序.cpp">
+      <Filter>基础数据结构\排序\交换排序</Filter>
+    </ClCompile>
+    <ClCompile Include="快速排序.cpp">
+      <Filter>基础数据结构\排序\交换排序</Filter>
+    </ClCompile>
+    <ClCompile Include="堆排序.cpp">
+      <Filter>基础数据结构\排序\选择排序</Filter>
+    </ClCompile>
+    <ClCompile Include="简单选择排序.cpp">
+      <Filter>基础数据结构\排序\选择排序</Filter>
+    </ClCompile>
+    <ClCompile Include="归并排序.cpp">
+      <Filter>基础数据结构\排序\归并排序、基数排序和计数排序</Filter>
+    </ClCompile>
+    <ClCompile Include="基数排序.cpp">
+      <Filter>基础数据结构\排序\归并排序、基数排序和计数排序</Filter>
+    </ClCompile>
+    <ClCompile Include="计数排序.cpp">
+      <Filter>基础数据结构\排序\归并排序、基数排序和计数排序</Filter>
+    </ClCompile>
+    <ClCompile Include="外部排序.cpp">
+      <Filter>基础数据结构\排序\外部排序</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
